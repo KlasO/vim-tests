@@ -5,8 +5,8 @@ This is my textbook: [Learn vimscript the hard way](https://learnvimscriptthehar
 
 Operator-Pending Mappings
 =========================
-`onoremap ip( :<c-u>normal! F(vi(<cr> ; inside previous parentheses; this is my example`
-`onoremap il( :<c-u>normal! F)vi(<cr> ; did not yet figure out why these two has the same result`
+`onoremap ip( :<c-u>normal! F(vi(<cr> ; inside previous parentheses; this is my example`  
+`onoremap il( :<c-u>normal! F)vi(<cr> ; did not yet figure out why these two has the same result`  
 `onoremap al( :<c-u>normal! F)va(<cr>`
 `onoremap an( :<c-u>normal! f)va(<cr>`
 
