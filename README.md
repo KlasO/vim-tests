@@ -25,4 +25,19 @@ did not figure out this one either; need to study regex more
 
 Status Lines
 ============
+`:set statusline=%f         " Path to the file`
+`:set statusline+=%=        " Switch to the right side`
+`:set statusline+=%l        " Current line` 
+`:set statusline+=/         " Separator`
+`:set statusline+=%L        " Total lines`
 
+`augroup filetype_markdown`
+`  autocmd!`
+`  autocmd FileType markdown onoremap ih :<c-u>execute "normal! ?^\[=-\]\\+$\r:nohlsearch\rkvg_"<cr>`
+`  autocmd FileType markdown onoremap ah :<c-u>execute "normal! ?^\[=-\]\\+$\r:nohlsearch\rg_vk0"<cr>`
+`  autocmd FileType markdown :set statusline=%F`
+`  autocmd FileType markdown :set statusline+=%=`        
+`  autocmd FileType markdown :set statusline+=%l`
+`  autocmd FileType markdown :set statusline+=/`
+`  autocmd FileType markdown :set statusline+=%L`
+`augroup END`
