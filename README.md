@@ -41,3 +41,11 @@ Status Lines
 `  autocmd FileType markdown :set statusline+=/`   
 `  autocmd FileType markdown :set statusline+=%L`   
 `augroup END`   
+
+Responsible Coding
+==================
+My `~/.vimrc` is found here (and is work-in-progress): [KlasO's ,vimrc](https://github.com/KlasO/vim-tests/.vimrc)
+`augroup filetype_vim`   
+`    autocmd!`   
+`    autocmd FileType vim setlocal foldmethod=marker`   
+`augroup END`   
