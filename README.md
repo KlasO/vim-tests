@@ -44,9 +44,15 @@ Status Lines
 
 Responsible Coding
 ==================
-My `~/.vimrc` is found here (and is work-in-progress): 
-[KlasO's .vimrc](https://github.com/KlasO/vimrc/blob/main/.vimrc)  
 `augroup filetype_vim`   
 `    autocmd!`   
 `    autocmd FileType vim setlocal foldmethod=marker`   
 `augroup END`   
+
+Variables
+=========
+My `~/.vimrc` is found here: [KlasO's .vimrc](https://github.com/KlasO/vimrc/blob/main/.vimrc)  
+
+Variable Scoping
+================
+
