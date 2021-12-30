@@ -55,4 +55,40 @@ My `~/.vimrc` is found here: [KlasO's .vimrc](https://github.com/KlasO/vimrc/blo
 
 Variable Scoping
 ================
+-
+
+Conditionals
+============
+No beer in the fridge :(
+
+Comparisons
+===========
+-
+
+Functions
+=========
+-
+
+Function Arguments
+==================
+-
+
+Numbers
+=======
+-
+
+Strings
+=======
+-
+
+String Functions
+================
+-
+
+Execute
+=======
+-
+
+Execute
+=======
 
