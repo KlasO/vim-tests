@@ -87,8 +87,8 @@ String Functions
 
 Execute
 =======
--
+`nnoremap <leader>ff :execute "rightbelow split " . bufname("#")<cr>`
 
-Execute
-=======
+Normal
+======
 
